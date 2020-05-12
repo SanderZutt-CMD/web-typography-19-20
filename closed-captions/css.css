@@ -5,18 +5,48 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+
+/* code om de achtergrond van kleur te laten veranderen (begin)*/
+
 html {
-	background-image: radial-gradient(circle at center center, rgb(100,32,32),rgb(8, 8, 8));
+	/* background-image: radial-gradient(circle at center center, rgb(32,32,32),rgb(8, 8, 8)); */
+	animation: bgcolor infinite 10s;
 }
+
+@keyframes bgcolor {
+
+0% {
+	background: #202020;
+}
+
+20% {
+	background: #080808;
+}
+
+40% {
+	background: #202020 ;
+}
+
+60% {
+	background: #080808;
+}
+
+80% {
+	background: #202020;
+}
+
+100% {
+	background: #080808;
+}
+}
+/* code om de achtergrond van kleur te laten veranderen (eind)*/
 
 #video-placeholder {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15em;
-	box-shadow: 1px 1px 50px 20px grey;
-	transform:scale(30%);
-	transition: 2s;
+	box-shadow: 1px 1px 50px 20px #A5B19E;
 }
 
 #closed-captions p {
@@ -31,8 +61,9 @@ html {
 	transition: .2s;
 	opacity: 0;
 }
-.voice1 {
-	/* robot voice */
+
+
+.voice1 { /* robot voice */
 	color: lime;
 	/* margin-left: 15em; */
 	margin-top: -20em;
@@ -40,20 +71,20 @@ html {
 	margin-right: 35%;
 	margin-left: 35%;
 	text-align: center;
-	font-family: "Brenner Mono Light Italic";
+	font-family: "Brenner light";
 }
 
-.voice2 {
-	/* KD6 voice */
+.voice2 { /* KD6 voice */
 	color: white;
 	font-size: 24px;
 	font-style: normal;
 	margin-right: 35%;
 	margin-left: 35%;
 	text-align: center;
+	font-family: "Brenner Slab Bold ital"
 }
 
-.voice3 {
+.voice3 { /* fuck off skin-job */
 	color: red;
 	font-size: 19px;
 	margin-left: 32em;
@@ -61,7 +92,7 @@ html {
 	transform: rotate(-15deg);
 }
 
-.voice4 {
+.voice4 { /* you are done voice */
 
 }
 
@@ -88,6 +119,7 @@ You probably want to change the styling.
 	transition: 0s .4s;
 	margin-right: -.25em;
 	font-weight: 400;
+	color: pink;
 }
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
