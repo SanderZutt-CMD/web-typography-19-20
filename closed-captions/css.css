@@ -5,6 +5,20 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+html {
+	background-image: radial-gradient(circle at center center, rgb(32,32,32),rgb(8, 8, 8));
+}
+
+#video-placeholder {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15em;
+	box-shadow: 1px 1px 50px 20px grey;
+	transform:scale(30%);
+	transition: 2s;
+}
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -18,20 +32,52 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 .voice1 {
+	/* robot voice */
+	color: lime;
+	/* margin-left: 15em; */
+	margin-top: -20em;
+	font-size: 24px;
 	font-style: italic;
+	font-weight: bold;
+	margin-right: 35%;
+	margin-left: 35%;
+	text-align: center;
+}
+
+.voice2 {
+	/* KD6 voice */
+	color: white;
+	font-size: 24px;
+	font-style: normal;
+	margin-right: 35%;
+	margin-left: 35%;
+	text-align: center;
+}
+
+.voice3 {
+	color: red;
+	font-size: 19px;
+	margin-left: 32em;
+	margin-top: -14em;
+	transform: rotate(-15deg);
+}
+
+.voice4 {
+
 }
 
 /* **********************************************
-The first paragraph, with extended timing for 
+The first paragraph, with extended timing for
 	all siblings. Basically what it does is that
-	it shows the text after a delay, which 
+	it shows the text after a delay, which
 	corresponds with the time that the word is
 	spoken.
 You probably want to change the styling.
 ********************************************** */
+
 .p0 span {
 	opacity: 0;
-	font-family: brenner;
+	/* font-family: brenner; */
 }
 .p0.on span:first-of-type {
 	opacity: 1;
@@ -60,37 +106,37 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0s 1.1s;
 	margin-right: -.25em;
-	font-family: "brenner sans";
+	/* font-family: "brenner sans"; */
 }
 .p0.on span:nth-of-type(6) {
 	opacity: 1;
 	transition: 0s 1.4s;
 	margin-right: -.25em;
-	font-family: "brenner display";
+	/* font-family: "brenner display"; */
 }
 .p0.on span:nth-of-type(7) {
 	opacity: 1;
 	transition: 0s 1.7s;
 	margin-right: -.25em;
-	font-family: "brenner script";
+	/* font-family: "brenner script"; */
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
 	transition: 0s 2s;
-	font-family: "brenner script";
+	/* font-family: "brenner script"; */
 }
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	transition: 0s 3s;
-	font-family: "brenner Sans condensed";
+	/* font-family: "brenner Sans condensed"; */
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
 	transition: 0s 3.2s;
-	font-family: "brenner mono";
+	/* font-family: "brenner mono"; */
 }
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.7s;
-	font-family: "brenner slab";
+	/* font-family: "brenner slab"; */
 }
