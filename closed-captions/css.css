@@ -6,7 +6,7 @@ Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 html {
-	background-image: radial-gradient(circle at center center, rgb(32,32,32),rgb(8, 8, 8));
+	background-image: radial-gradient(circle at center center, rgb(100,32,32),rgb(8, 8, 8));
 }
 
 #video-placeholder {
