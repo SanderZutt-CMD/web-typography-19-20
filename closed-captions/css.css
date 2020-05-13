@@ -46,7 +46,7 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15em;
-	box-shadow: 1px 1px 50px 1px #A5B19E;
+	/* box-shadow: 1px 1px 50px 1px #A5B19E; */
 }
 
 #closed-captions p {
@@ -65,13 +65,12 @@ html {
 .voice1 { /* robot voice */
 	padding: 5px;
 	color: White;
-	/* margin-left: 15em; */
 	margin-top: -20em;
 	font-size: 24px;
-	/* margin-right: 35%; */
 	margin-left: 31.6%;
 	text-align: left;
 	font-family: "Brenner Sans Light Italic";
+	max-width: 25.3em;
 }
 
 .voice2 { /* KD6 voice */
@@ -79,8 +78,9 @@ html {
 	font-size: 24px;
 	font-style: normal;
 	margin-left: 31.6%;
-	text-align: center;
+	text-align: left;
 	font-family: "Brenner Sans Light";
+	max-width: 25.3em;
 }
 
 .voice3 { /* fuck off skin-job */
@@ -93,8 +93,30 @@ html {
 }
 
 .voice4 { /* you are done voice */
-
+	color: white;
+	margin-top: -9em;
+	font-size: 24px;
+	font-style: normal;
+	margin-left: 10%;
+	text-align: left;
+	font-family: "Brenner Sans Light";
+	max-width: 25.3em;
 }
+
+.cells { /* cells - voice1 */
+	color: lime;
+	background-color: black;
+	padding: 5px;
+	font-family: "Brenner Slab";
+	font-weight: 600;
+}
+ .interlinked {
+	 color: lime;
+	 background-color: black;
+	 padding: 5px;
+	 font-family: "Brenner Slab";
+	 font-weight: 600;
+ }
 
 /* **********************************************
 The first paragraph, with extended timing for
@@ -323,7 +345,7 @@ You probably want to change the styling.
 /* ======================Einde Zin================= */
 
 /* ================================================ */
-/* A system of cells -interlinked- within cells,	*/
+/*   A system of cells interlinked within cells,	*/
 /* ================================================ */
 
 .p4 span {
@@ -354,11 +376,6 @@ You probably want to change the styling.
 .p4.on span:nth-of-type(5) {
 	opacity: 1;
 	transition: 0s;
-	color: lime;
-	background-color: black;
-	padding: 5px;
-	font-family: "Brenner Slab";
-	font-weight: 600;
 }
 /* within */
 .p4.on span:nth-of-type(6) {
@@ -369,12 +386,54 @@ You probably want to change the styling.
 .p4.on span:nth-of-type(7) {
 	opacity: 1;
 	transition: 0s;
+}
+/* ======================Einde Zin=========================== */
+
+/* ========================================================== */
+/* 						Have you ever been in an institution?						*/
+/* ========================================================== */
+
+.p10 span {
+	opacity: 0;
+	/* font-family: brenner; */
+}
+/* have */
+.p10.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+}
+/* you */
+.p10.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s;
+}
+/* ever */
+.p10.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s;
+}
+/* been */
+.p10.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s;
+}
+/* in */
+.p10.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s;
+}
+/* an */
+.p10.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s;
+}
+/* institution */
+.p10.on span:nth-of-type(7) {
+	opacity: 1;
+	transition: 0s;
 	color: lime;
 	background-color: black;
 	padding: 5px;
 	font-family: "Brenner Slab";
 	font-weight: 600;
 }
-
-
-/* .interlinked { TESTEN!} */
