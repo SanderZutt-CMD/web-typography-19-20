@@ -16,27 +16,27 @@ html {
 @keyframes bgcolor {
 
 0% {
-	background: #202020;
+	background: black;
 }
 
 20% {
-	background: #080808;
+	background: #262525;
 }
 
 40% {
-	background: #202020 ;
+	background: black;
 }
 
 60% {
-	background: #080808;
+	background: #262525;
 }
 
 80% {
-	background: #202020;
+	background: black;
 }
 
 100% {
-	background: #080808;
+	background: #262525;
 }
 }
 /* code om de achtergrond van kleur te laten veranderen (eind)*/
@@ -46,7 +46,7 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15em;
-	box-shadow: 1px 1px 25px 20px #A5B19E;
+	/* box-shadow: 1px 1px 20px 0.1px #A5B19E; */
 }
 
 #closed-captions p {
@@ -86,11 +86,12 @@ html {
 }
 
 .voice3 { /* fuck off skin-job */
-	color: red;
-	font-size: 19px;
-	margin-left: 32em;
+	color: white;
+	font-size: 16px;
+	margin-left: 39em;
 	margin-top: -14em;
 	transform: rotate(-15deg);
+	font-family: "Brenner Mono Light Italic";
 }
 
 .voice4 { /* you are done voice */
@@ -215,6 +216,37 @@ You probably want to change the styling.
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.7s;
+font-family: "Brenner Mono";
+font-weight:200;
 }
 
+/* ======================Einde Zin========================== */
+
+/* ================================================ */
+/*												Yes, sir									*/
+/* ================================================ */
+
+.p1 span {
+	opacity: 0;
+	/* font-family: brenner; */
+}
+
+/* yes */
+.p1.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	font-weight: 200;
+	color: pink;
+}
+/* sir */
+.p1.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .4s;
+	color: pink;
+}
+
+/* ======================Einde Zin========================== */
+
+/* ================================================ */
+/*												........									*/
 /* ================================================ */
