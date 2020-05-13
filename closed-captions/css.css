@@ -46,7 +46,7 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15em;
-	/* box-shadow: 1px 1px 20px 0.1px #A5B19E; */
+	box-shadow: 1px 1px 50px 1px #A5B19E;
 }
 
 #closed-captions p {
@@ -61,7 +61,6 @@ html {
 	transition: .2s;
 	opacity: 0;
 }
-
 
 .voice1 { /* robot voice */
 	padding: 5px;
@@ -79,10 +78,9 @@ html {
 	color: white;
 	font-size: 24px;
 	font-style: normal;
-	margin-right: 35%;
-	margin-left: 35%;
+	margin-left: 31.6%;
 	text-align: center;
-	font-family: "Brenner Slab Bold ital"
+	font-family: "Brenner Sans Light";
 }
 
 .voice3 { /* fuck off skin-job */
@@ -220,7 +218,7 @@ You probably want to change the styling.
 	font-weight:200;
 }
 
-/* ======================Einde Zin========================== */
+/* ======================Einde Zin================= */
 
 /* ================================================ */
 /*												Yes, sir									*/
@@ -231,22 +229,150 @@ You probably want to change the styling.
 	/* font-family: brenner; */
 }
 
-/* yes */
+/* yes, */
 .p1.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	font-weight: 200;
-	color: pink;
 }
 /* sir */
 .p1.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .4s;
-	color: pink;
 }
 
-/* ======================Einde Zin========================== */
+/* ======================Einde Zin================= */
 
 /* ================================================ */
-/*												........									*/
+/*						Recite your baseline.									*/
 /* ================================================ */
+
+.p2 span {
+	opacity: 0;
+	/* font-family: brenner; */
+}
+
+/* Recite */
+.p2.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+}
+/* Your */
+.p2.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s;
+}
+
+/* baseline. */
+.p2.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s;
+	color: lime;
+	background-color: black;
+	padding: 5px;
+	font-family: "Brenner Slab";
+	font-weight: 600;
+}
+
+
+/* ======================Einde Zin================= */
+
+/* ================================================ */
+/*		And blood-black nothingness began to spin			*/
+/* ================================================ */
+
+.p3 span {
+	opacity: 0;
+	/* font-family: brenner; */
+}
+/* and */
+.p3.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+}
+/* blood-back */
+.p3.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s;
+	color: #8a0303;
+	background-color: black;
+	padding: 5px;
+	font-family: "Brenner Slab";
+	font-weight: 600;
+}
+/* nothingness */
+.p3.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s;
+}
+/* began */
+.p3.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s;
+}
+/* to */
+.p3.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s;
+}
+/* spin */
+.p3.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s;
+}
+
+/* ======================Einde Zin================= */
+
+/* ================================================ */
+/* A system of cells -interlinked- within cells,	*/
+/* ================================================ */
+
+.p4 span {
+	opacity: 0;
+	/* font-family: brenner; */
+}
+/* A */
+.p4.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+}
+/* system */
+.p4.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s;
+
+}
+/* of */
+.p4.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s;
+}
+/* cells */
+.p4.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s;
+}
+/* -interlinked- */
+.p4.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s;
+	color: lime;
+	background-color: black;
+	padding: 5px;
+	font-family: "Brenner Slab";
+	font-weight: 600;
+}
+/* within */
+.p4.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s;
+}
+/* cells, */
+.p4.on span:nth-of-type(7) {
+	opacity: 1;
+	transition: 0s;
+	color: lime;
+	background-color: black;
+	padding: 5px;
+	font-family: "Brenner Slab";
+	font-weight: 600;
+}
