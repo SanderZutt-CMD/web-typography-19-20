@@ -216,8 +216,8 @@ You probably want to change the styling.
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.7s;
-font-family: "Brenner Mono";
-font-weight:200;
+	font-family: "Brenner Mono";
+	font-weight:200;
 }
 
 /* ======================Einde Zin========================== */
