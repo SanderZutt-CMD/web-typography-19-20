@@ -7,7 +7,7 @@ captions[4] = ['17.369','20'];
 captions[5] = ['20.1','23.3'];
 	//Fuck off, skin-job!
 captions[6] = ['23.3','25.2'];
-	
+
 captions[7] = ['26.8','31.6'];
 captions[8] = ['32.7','33'];
 captions[9] = ['33.2','34'];
@@ -107,3 +107,28 @@ captions[76] = ['124.92','125.52'];
 captions[77] = ['125.52','127.28'];
 captions[78] = ['128.18','130.14'];
 captions[79] = ['132.58','135'];
+
+// sound effect - text
+
+// drumgeluiden
+captions[80] = ['0.0','33.0'];
+// alarm
+captions[81] = ['9.0','10.0'];
+// tolalarm
+captions[82] = ['12.0','13.0'];
+// lage toon
+captions[83] = ['15.2','16.7'];
+// hoge toon
+captions[84] = ['16.7','17.2'];
+// lage toon
+captions[85] = ['24.2','25.7'];
+// hoge toon
+captions[86] = ['25.7','26.2'];
+// lage toon
+captions[87] = ['31.2','32.3'];
+// hoge toons
+captions[88] = ['32.3','33.0'];
+// hoge piep
+captions[89] = ['33.2','75'];
+// spannende muziek
+captions[90] = ['86.0','136'];
