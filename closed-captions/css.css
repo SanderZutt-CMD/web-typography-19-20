@@ -248,73 +248,79 @@ You probably want to change the styling.
 	font-family: "Brenner Sans";
 	color: white;
 	font-size: 24px;
-	margin: -15em 0px 0px 52.5em;
+	margin: -23.5em 0px 0px 55.5em;
 }
 /* =====alarm===== */
 .soundcaption1 {
 	font-family: "Brenner Sans";
 	color: red;
 	font-size: 24px;
-	margin: -13.5em 0px 0px 52.5em;
+	margin: -22em 0px 0px 55.5em;
 }
 /* =====high freq 1===== */
 .soundcaption2 {
 	font-family: "Brenner Sans";
 	color: blue;
 	font-size: 24px;
-	margin: -13.5em 0px 0px 52.5em;
+	margin: -22em 0px 0px 55.5em;
 }
+
 /* =====low freq 1===== */
 .soundcaption3 {
 	font-family: "Brenner Sans";
 	color: yellow;
 	font-size: 24px;
-	margin: -13.5em 0px 0px 52.5em;
+	margin: -22em 0px 0px 55.5em;
 }
 /* =====high freq 2===== */
 .soundcaption4 {
 	font-family: "Brenner Sans";
 	color: pink;
 	font-size: 24px;
-	margin: -13.5em 0px 0px 52.5em;
+	margin: -22em 0px 0px 55.5em;
 }
+/* =====low freq 2===== */
 .soundcaption5 {
 	font-family: "Brenner Sans";
 	color: green;
 	font-size: 24px;
-	margin: -13.5em 0px 0px 52.5em;
+	margin: -22em 0px 0px 55.5em;
 }
+/* =====high freq 3===== */
 .soundcaption6 {
 	font-family: "Brenner Sans";
 	color: brown;
 	font-size: 24px;
-	margin: -13.5em 0px 0px 52.5em;
+	margin: -22em 0px 0px 55.5em;
 }
+/* =====low freq 3===== */
 .soundcaption7 {
 	font-family: "Brenner Sans";
 	color: white;
 	font-size: 24px;
-	margin: -13.5em 0px 0px 52.5em;
+	margin: -22em 0px 0px 55.5em;
 }
+/* =====high freq 4===== */
 .soundcaption8 {
 	font-family: "Brenner Sans";
 	color: purple;
 	font-size: 24px;
-	margin: -13.5em 0px 0px 52.5em;
+	margin: -22em 0px 0px 55.5em;;
 }
+/* =====high freq 4 increasing===== */
 /* 0:33 tot 1:15 */
 .soundcaption9 {
 	font-family: "Brenner Sans";
 	color: orange;
 	font-size: 24px;
-	margin: -22.5em 0px 0px 52.5em;
-	text-align: center;
+	margin: -22em 0px 0px 55.5em;
 }
+/* =====Taunting music===== */
 .soundcaption10 {
 	font-family: "Brenner Sans";
 	color: aqua;
 	font-size: 24px;
-	margin: -22.5em 0px 0px 52.5em;
+	margin: -22em 0px 0px 55.5em;;
 }
 /* =======================Einde=================== */
 
