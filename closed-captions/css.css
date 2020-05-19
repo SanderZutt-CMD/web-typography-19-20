@@ -243,6 +243,15 @@ You probably want to change the styling.
 /*					 					soundcaptions 								*/
 /* ================================================ */
 
+
+.soundsheader p{
+	font-family: "Brenner Sans";
+	color: white;
+	font-size: 24px;
+	margin: -25em 0px 0px 51em;
+	text-align: center;
+}
+
 /* =====drum===== */
 .soundcaption0 {
 	font-family: "Brenner Sans";
