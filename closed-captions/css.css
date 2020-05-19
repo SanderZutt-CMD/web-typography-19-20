@@ -52,11 +52,11 @@ html {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10em;
+	margin-top: 12.5em;
 	width: 50em;
 	height: 30em;
-	border-radius: 50px;
-	/* box-shadow: 1px 1px 50px 1px #A5B19E; */
+	border-radius: 12.5px;
+	box-shadow: 1px 1px 25px 1px black;
 }
 
 /* =======================Einde=================== */
@@ -88,14 +88,15 @@ html {
 
 /* =====Robot Voice====== */
 .voice1 {
-	font-size: 24px;
-	margin-top: -3em;
-	margin-left: 26%;
+	font-size: 20px;
+	margin-top: 8.5em;
+	margin-left: 27%;
 	text-align: left;
-	max-width: 25.3em;
+	max-width: 38em;
 	color: lime;
 	padding: 5px;
 	font-family: "Brenner Slab";
+	font-weight: 600;
 	background-color: black;
 }
 /* =====Eind====== */
@@ -103,21 +104,21 @@ html {
 /* =====KD6 Voice====== */
 .voice2 {
 	color: white;
-	font-size: 24px;
+	font-size: 20px;
 	font-style: normal;
-	margin-left: 26%;
+	margin-left: 27%;
 	text-align: left;
 	font-family: "Brenner Sans Light";
-	max-width: 25.3em;
-	margin-top: 21em;
+	max-width: 38em;
+	margin-top: 29em;
 }
 
 /* =====By-passer====== */
 .voice3 {
 	color: white;
-	font-size: 10px;
-	margin-left: 67em;
-	margin-top: 23em;
+	font-size: 0.8em;
+	margin-left: 50em;
+	margin-top: 20em;
 	transform: rotate(-15deg);
 	font-family: "Brenner Mono Light Italic";
 }
@@ -125,13 +126,13 @@ html {
 /* =====Intercome Voice====== */
 .voice4 {
 	color: white;
-	margin-top: -9em;
+	margin-top: 16em;
 	font-size: 24px;
 	font-style: normal;
-	margin-left: 10%;
+	margin-left: 8%;
 	text-align: left;
 	font-family: "Brenner Sans Light";
-	max-width: 25.3em;
+	max-width: 12em;
 }
 
 /* =======================Einde=================== */
@@ -244,11 +245,15 @@ You probably want to change the styling.
 /* ================================================ */
 
 .soundseffects {
-	font-family: "Brenner Sans";
+	font-family: "Brenner Sans Condensed Bold";
 	color: white;
 	font-size: 20px;
-	margin-left: 77%;
-	margin-top: -24em;
+	/* margin-left: 40%; */
+	margin-top: -32em;
+	display: block;
+	margin-left: 40%;
+	margin-right: 40%;
+	pointer-events: none;
 }
 
 /* .soundseffects p {
@@ -256,104 +261,438 @@ You probably want to change the styling.
 	text-align: center;
 } */
 
-.soundsheader{
+/* .soundsheader{
 	font-family: "Brenner Sans bold";
 	color: white;
 	font-size: 24px;
 	margin-left: 74.5%;
 	margin-top: -22em;
 	text-align: center;
-}
+} */
 
-/* =====Drumming noice in the background===== */
+/* =====Drumming noice in the background===0=== */
 .soundcaption0 {
-	margin-top: 1em;
+	margin-top: 0em;
+	margin-left: -3.3em;
+	font-size: 2.5em;
+	animation: drum infinite 3s;
+}
+@keyframes drum {
 
+0% {
+	text-shadow: 6px 4px 20px blue;
 }
-/* =====Buzzing alarm===== */
+
+20% {
+	text-shadow: 6px 4px 20px darkblue;
+}
+
+40% {
+	text-shadow: 6px 4px 20px blue;
+}
+
+60% {
+	text-shadow: 6px 4px 20px darkblue;
+}
+
+80% {
+	text-shadow: 6px 4px 20px blue;
+}
+
+100% {
+	text-shadow: 6px 4px 20px darkblue;
+}
+}
+
+/* =====Buzzing alarm===1=== */
 .soundcaption1 {
-	/* margin: -22em 0px 0px 52em; */
-	margin-top: 2.5em;
+	color: red;
+	margin-top: 4.5em;
+	margin-left: -1.25em;
+	font-size: 4em;
+	animation: buzzer infinite 1.5s;
 }
-/* =====High pitch siren===== */
+@keyframes buzzer {
+
+0% {
+	text-shadow: 6px 4px 10px red;
+}
+
+20% {
+	text-shadow: 6px 4px 20px red;
+}
+
+40% {
+	text-shadow: 6px 4px 30px red;
+}
+
+60% {
+	text-shadow: 6px 4px 40px red;
+}
+
+80% {
+	text-shadow: 6px 4px 50px red;
+}
+
+100% {
+	text-shadow: 6px 4px 60px red;
+}
+}
+
+/* =====High pitch siren===2=== */
 .soundcaption2 {
 	/* margin: -22em 0px 0px 52em; */
-margin-top: 2.5em;
+	margin-top: 4.5em;
+	margin-left: -1.5em;
+	font-size: 4em;
+	animation: alarm infinite 1s;
 }
-/* =====Slow Buzzing noice===== */
+
+@keyframes alarm {
+
+0% {
+	text-shadow: 6px 4px 25px red;
+}
+
+20% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+40% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+60% {
+	text-shadow: 6px 4px 25px red;
+}
+
+80% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+100% {
+	text-shadow: 6px 4px 25px red;
+}
+}
+
+/* =====Slow Buzzing noice===3=== */
 .soundcaption3 {
 	/* margin: -22em 0px 0px 52em; */
-margin-top: 2.5em;
+	margin-top: 4.5em;
+	margin-left: 3.5em;
+	animation: font infinite 2.5s;
 }
-/* =====High pitched alarm===== */
+
+@keyframes font {
+
+0% {
+	text-shadow: 6px 4px 25px lime;
+}
+
+20% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+40% {
+	text-shadow: 6px 4px 25px lime;
+}
+
+60% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+80% {
+	text-shadow: 6px 4px 25px lime;
+}
+
+100% {
+	text-shadow: 6px 4px 25px cyan;
+}
+}
+
+/* =====High pitched alarm===4=== */
 .soundcaption4 {
-	/* margin: -22em 0px 0px 52em; */
-margin-top: 2.5em;
+	margin-top: 4.5em;
+	margin-left: -1.5em;
+	font-size: 4em;
+	animation: font infinite 2.5s;
 }
-/* =====Buzzing alarm===== */
+
+@keyframes font {
+
+0% {
+	text-shadow: 6px 4px 25px red;
+}
+
+20% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+40% {
+	text-shadow: 6px 4px 25px red;
+}
+
+60% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+80% {
+	text-shadow: 6px 4px 25px red;
+}
+
+100% {
+	text-shadow: 6px 4px 25px cyan;
+}
+}
+/* =====Buzzing alarm====5== */
 .soundcaption5 {
 	/* margin: -22em 0px 0px 52em; */
-margin-top: 2.5em;
+	margin-top: 4.5em;
+	margin-left: 5em;
+	animation: font infinite 5s;
 }
-/* =====High pitched alarm===== */
+
+@keyframes font {
+
+0% {
+	text-shadow: 6px 4px 25px red;
+}
+
+20% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+40% {
+	text-shadow: 6px 4px 25px red;
+}
+
+60% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+80% {
+	text-shadow: 6px 4px 25px red;
+}
+
+100% {
+	text-shadow: 6px 4px 25px cyan;
+}
+}
+/* =====High pitched alarm===6=== */
 .soundcaption6 {
 	/* margin: -22em 0px 0px 52em; */
-margin-top: 2.5em;
+	margin-top: 4.5em;
+	margin-left: -1.5em;
+	font-size: 4em;
+	animation: font infinite 2.5s;
 }
-/* =====Slow Buzzing noice===== */
+
+@keyframes font {
+
+0% {
+	text-shadow: 6px 4px 25px red;
+}
+
+20% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+40% {
+	text-shadow: 6px 4px 25px red;
+}
+
+60% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+80% {
+	text-shadow: 6px 4px 25px red;
+}
+
+100% {
+	text-shadow: 6px 4px 25px cyan;
+}
+}
+/* =====Slow Buzzing noice===7=== */
 .soundcaption7 {
 	/* margin: -22em 0px 0px 52em; */
-margin-top: 2.5em;
+	margin-top: 4.5em;
+	margin-left: 3.5em;
+	animation: font infinite 2.5s;
 }
-/* =====High pitched alarm===== */
+
+@keyframes font {
+
+0% {
+	text-shadow: 6px 4px 25px lime;
+}
+
+20% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+40% {
+	text-shadow: 6px 4px 25px lime;
+}
+
+60% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+80% {
+	text-shadow: 6px 4px 25px lime;
+}
+
+100% {
+	text-shadow: 6px 4px 25px cyan;
+}
+}
+/* =====High pitched alarm===8=== */
 .soundcaption8 {
 	/* margin: -22em 0px 0px 52em; */
-margin-top: 2.5em;
+	margin-top: 4.5em;
+	margin-left: -1.5em;
+	font-size: 4em;
+	animation: font infinite 2.5s;
 }
-/* =====High pitched tone increasing 0:33 tot 1:15===== */
+
+@keyframes font {
+
+0% {
+	text-shadow: 6px 4px 25px red;
+}
+
+20% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+40% {
+	text-shadow: 6px 4px 25px red;
+}
+
+60% {
+	text-shadow: 6px 4px 25px cyan;
+}
+
+80% {
+	text-shadow: 6px 4px 25px red;
+}
+
+100% {
+	text-shadow: 6px 4px 25px cyan;
+}
+}
+/* =====High pitched tone increasing 0:33 tot 1:15===9=== */
 .soundcaption9 {
 	/* margin: -22em 0px 0px 52em; */
-margin-top: 2.5em;
+	margin-top: 18em;
+	margin-left: -1em;
+	max-width: 30em;
+	font-size: 2em;
+	text-align: center;
+	animation: increase infinite 10s;
 }
-/* =====Scaring sound in the background===== */
-.soundcaption10 {
-	/* margin: -22em 0px 0px 52em; */
-margin-top: 2.5em;
-}
-/* =======================Einde=================== */
-
-/* .sound0 iframe {
-		animation: video infinite 10s;
-	}
-
-	@keyframes video {
+@keyframes increase {
 
 	0% {
-		box-shadow: 1px 1px 50px 1px red;
+		text-shadow: 1px 4px 10px red;
 	}
 
 	20% {
-		background: yellow;
+		text-shadow: 1px 4px 20px red;
 	}
 
 	40% {
-		box-shadow: 1px 1px 50px 1px red;
+		text-shadow: 1px 4px 30px red;
 	}
 
 	60% {
-		box-shadow: 1px 1px 50px 1px yellow;
+		text-shadow: 1px 4px 40px red;
 	}
 
 	80% {
-		box-shadow: 1px 1px 50px 1px red;
+		text-shadow: 1px 4px 50px red;
 	}
 
 	100% {
-		box-shadow: 1px 1px 50px 1px yellow;
+		text-shadow: 1px 4px 100px red;
 	}
+}
+/* =====Scaring sound in the background===10=== */
+.soundcaption10 {
+	/* margin: -22em 0px 0px 52em; */
+	margin-top: 0em;
+	margin-left: -3em;
+	max-width: 30em;
+	font-size: 2em;
+	text-align: center;
+	animation: creepy infinite 10s;
+}
+@keyframes creepy {
+
+	0% {
+		text-shadow: 1px 4px 10px darkblue;
 	}
 
-.sound1 iframe {
+	20% {
+		text-shadow: 1px 4px 20px aqua;
+	}
+
+	40% {
+		text-shadow: 1px 4px 30px darkblue;
+	}
+
+	60% {
+		text-shadow: 1px 4px 40px aqua;
+	}
+
+	80% {
+		text-shadow: 1px 4px 50px darkblue;
+	}
+
+	100% {
+		text-shadow: 1px 4px 100px aqua;
+	}
+}
+
+}
+/* =======================Einde=================== */
+
+
+/* =====Drumming noice in the background===== */
+/* .sound0 iframe {
+		animation: video infinite 2s;
+	}
+
+@keyframes video {
+
+	0% {
+		box-shadow: 20px 20px 50px 1px red;
+	}
+
+	20% {
+		box-shadow: -20px -20px 50px 1px yellow;
+	}
+
+	40% {
+		box-shadow: 20px 20px 50px 1px red;
+	}
+
+	60% {
+		box-shadow: -20px -20px 50px 1px yellow;
+	}
+
+	80% {
+		box-shadow: 20px 20px 50px 1px red;
+	}
+
+	100% {
+		box-shadow: -20px -20px 50px 1px yellow;
+	}
+	} */
+/*
+/* =====Buzzing alarm===== */
+/* .sound1 iframe {
 	animation: shadow0 1s;
 }
 
@@ -362,12 +701,11 @@ margin-top: 2.5em;
 100% {
 	box-shadow: 1px 1px 50px 1px red;
 }
-{
-	transition: ease-out 1s;
-}
-}
 
-.sound2 iframe {
+}  */
+
+
+/* .sound2 iframe {
 animation: shadow1 1s;
 }
 
