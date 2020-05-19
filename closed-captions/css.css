@@ -54,7 +54,8 @@ html {
 	margin-right: auto;
 	margin-top: 10em;
 	width: 50em;
-	height: 35em;
+	height: 30em;
+	border-radius: 50px;
 	/* box-shadow: 1px 1px 50px 1px #A5B19E; */
 }
 
@@ -87,14 +88,15 @@ html {
 
 /* =====Robot Voice====== */
 .voice1 {
-	padding: 5px;
-	color: White;
-	margin-top: -26em;
 	font-size: 24px;
-	margin-left: 25.5%;
+	margin-top: -3em;
+	margin-left: 26%;
 	text-align: left;
 	max-width: 25.3em;
-	font-family: "Brenner Sans Light";
+	color: lime;
+	padding: 5px;
+	font-family: "Brenner Slab";
+	background-color: black;
 }
 /* =====Eind====== */
 
@@ -103,23 +105,22 @@ html {
 	color: white;
 	font-size: 24px;
 	font-style: normal;
-	margin-left: 25.5%;
+	margin-left: 26%;
 	text-align: left;
 	font-family: "Brenner Sans Light";
 	max-width: 25.3em;
+	margin-top: 21em;
 }
-/* =====Eind====== */
 
 /* =====By-passer====== */
 .voice3 {
 	color: white;
-	font-size: 16px;
-	margin-left: 39em;
-	margin-top: -14em;
+	font-size: 10px;
+	margin-left: 67em;
+	margin-top: 23em;
 	transform: rotate(-15deg);
 	font-family: "Brenner Mono Light Italic";
 }
-/* =====Eind====== */
 
 /* =====Intercome Voice====== */
 .voice4 {
@@ -132,7 +133,6 @@ html {
 	font-family: "Brenner Sans Light";
 	max-width: 25.3em;
 }
-/* =====Eind====== */
 
 /* =======================Einde=================== */
 
@@ -243,93 +243,82 @@ You probably want to change the styling.
 /*					 					soundcaptions 								*/
 /* ================================================ */
 
-
-.soundsheader p{
+.soundseffects {
 	font-family: "Brenner Sans";
 	color: white;
+	font-size: 20px;
+	margin-left: 77%;
+	margin-top: -24em;
+}
+
+/* .soundseffects p {
+	margin: 1em;
+	text-align: center;
+} */
+
+.soundsheader{
+	font-family: "Brenner Sans bold";
+	color: white;
 	font-size: 24px;
-	margin: -25em 0px 0px 51em;
+	margin-left: 74.5%;
+	margin-top: -22em;
 	text-align: center;
 }
 
-/* =====drum===== */
+/* =====Drumming noice in the background===== */
 .soundcaption0 {
-	font-family: "Brenner Sans";
-	color: white;
-	font-size: 24px;
-	margin: -23.5em 0px 0px 55.5em;
-}
-/* =====alarm===== */
-.soundcaption1 {
-	font-family: "Brenner Sans";
-	color: red;
-	font-size: 24px;
-	margin: -22em 0px 0px 55.5em;
-}
-/* =====high freq 1===== */
-.soundcaption2 {
-	font-family: "Brenner Sans";
-	color: blue;
-	font-size: 24px;
-	margin: -22em 0px 0px 55.5em;
-}
+	margin-top: 1em;
 
-/* =====low freq 1===== */
+}
+/* =====Buzzing alarm===== */
+.soundcaption1 {
+	/* margin: -22em 0px 0px 52em; */
+	margin-top: 2.5em;
+}
+/* =====High pitch siren===== */
+.soundcaption2 {
+	/* margin: -22em 0px 0px 52em; */
+margin-top: 2.5em;
+}
+/* =====Slow Buzzing noice===== */
 .soundcaption3 {
-	font-family: "Brenner Sans";
-	color: yellow;
-	font-size: 24px;
-	margin: -22em 0px 0px 55.5em;
+	/* margin: -22em 0px 0px 52em; */
+margin-top: 2.5em;
 }
-/* =====high freq 2===== */
+/* =====High pitched alarm===== */
 .soundcaption4 {
-	font-family: "Brenner Sans";
-	color: pink;
-	font-size: 24px;
-	margin: -22em 0px 0px 55.5em;
+	/* margin: -22em 0px 0px 52em; */
+margin-top: 2.5em;
 }
-/* =====low freq 2===== */
+/* =====Buzzing alarm===== */
 .soundcaption5 {
-	font-family: "Brenner Sans";
-	color: green;
-	font-size: 24px;
-	margin: -22em 0px 0px 55.5em;
+	/* margin: -22em 0px 0px 52em; */
+margin-top: 2.5em;
 }
-/* =====high freq 3===== */
+/* =====High pitched alarm===== */
 .soundcaption6 {
-	font-family: "Brenner Sans";
-	color: brown;
-	font-size: 24px;
-	margin: -22em 0px 0px 55.5em;
+	/* margin: -22em 0px 0px 52em; */
+margin-top: 2.5em;
 }
-/* =====low freq 3===== */
+/* =====Slow Buzzing noice===== */
 .soundcaption7 {
-	font-family: "Brenner Sans";
-	color: white;
-	font-size: 24px;
-	margin: -22em 0px 0px 55.5em;
+	/* margin: -22em 0px 0px 52em; */
+margin-top: 2.5em;
 }
-/* =====high freq 4===== */
+/* =====High pitched alarm===== */
 .soundcaption8 {
-	font-family: "Brenner Sans";
-	color: purple;
-	font-size: 24px;
-	margin: -22em 0px 0px 55.5em;;
+	/* margin: -22em 0px 0px 52em; */
+margin-top: 2.5em;
 }
-/* =====high freq 4 increasing===== */
-/* 0:33 tot 1:15 */
+/* =====High pitched tone increasing 0:33 tot 1:15===== */
 .soundcaption9 {
-	font-family: "Brenner Sans";
-	color: orange;
-	font-size: 24px;
-	margin: -22em 0px 0px 55.5em;
+	/* margin: -22em 0px 0px 52em; */
+margin-top: 2.5em;
 }
-/* =====Taunting music===== */
+/* =====Scaring sound in the background===== */
 .soundcaption10 {
-	font-family: "Brenner Sans";
-	color: aqua;
-	font-size: 24px;
-	margin: -22em 0px 0px 55.5em;;
+	/* margin: -22em 0px 0px 52em; */
+margin-top: 2.5em;
 }
 /* =======================Einde=================== */
 
