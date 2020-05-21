@@ -69,15 +69,18 @@ html {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	pointer-events: none;
 }
 
 #closed-captions .on {
 	opacity: 1;
+	pointer-events: none;
 }
 
 #closed-captions .off {
 	transition: .2s;
 	opacity: 0;
+	pointer-events: none;
 }
 
 /* =======================Einde=================== */
@@ -253,7 +256,6 @@ You probably want to change the styling.
 	display: block;
 	margin-left: 40%;
 	margin-right: 40%;
-	pointer-events: none;
 }
 
 /* .soundseffects p {
