@@ -138,6 +138,39 @@ html {
 	max-width: 12em;
 }
 
+.one {
+	color: white;
+	font-size: 20px;
+	font-style: normal;
+	margin-left: 27%;
+	text-align: left;
+	font-family: "Brenner Sans Light";
+	max-width: 38em;
+	margin-top: 29em;
+}
+
+.two {
+	color: white;
+	font-size: 20px;
+	font-style: normal;
+	margin-left: 40%;
+	text-align: left;
+	font-family: "Brenner Sans Light";
+	max-width: 38em;
+	margin-top: 29em;
+}
+
+.three {
+	color: white;
+	font-size: 20px;
+	font-style: normal;
+	margin-left: 55%;
+	text-align: left;
+	font-family: "Brenner Sans Light";
+	max-width: 38em;
+	margin-top: 29em;
+}
+
 /* =======================Einde=================== */
 
 /* ================================================ */
